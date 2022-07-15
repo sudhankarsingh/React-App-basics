@@ -10,6 +10,7 @@ import Stylsheet from "./8.Styling/Stylesheet"
 import Inline from "./8.Styling/Inline"
 import AppStyles from "./8.Styling/appStyles";
 import UserForms from "./9.formhandling/UserForms";
+import commentsAPI from "./11.ajax-calls/commentsAPI";
 function App() {
   return (
     <div className="container">
@@ -24,7 +25,8 @@ function App() {
       <AppStyles/> */}
       
       
-      <UserForms/>
+      {/* //<UserForms/> */}
+      
     </div>
   );
 }

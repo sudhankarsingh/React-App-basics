@@ -7,7 +7,11 @@ export class  UserForms extends Component  {
             username:""
      }
   }
+getFormData(event){
+   console.log(event)
+}
 
+getUser
   render(){
       return(
         <div>
